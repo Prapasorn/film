@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ประภัสสร สองคร(ฟิล์ม)</title>
+</head>
+
+<body>
+<h1>ประภัสสร สองคร(ฟิล์มมี่)</h1>
+<hr>
+<h1>การสร้างฟอร์มรับข้อมูล ด้วย Tools ของ bootsnipp </h1>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" >
+
+
+
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>การสร้างฟอร์มรับข้อมูล</legend>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="title">คำนำหน้า</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="title-0">
+      <input type="radio" name="title" id="title-0" value="นาย" checked="checked">
+      นาย
+    </label> 
+    <label class="radio-inline" for="title-1">
+      <input type="radio" name="title" id="title-1" value="นาง">
+      นาง
+    </label> 
+    <label class="radio-inline" for="title-2">
+      <input type="radio" name="title" id="title-2" value="นางสาว">
+      นางสาว
+    </label>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="full name">ชื่อ-สกุล</label>  
+  <div class="col-md-4">
+  <input id="full name" name="full name" type="text" placeholder="ชื่อ-สกุล" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="age">อายุ</label>  
+  <div class="col-md-4">
+  <input id="age" name="age" type="text" placeholder="อายุ" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="birthday">วันเกิด</label>
+  <div class="col-md-4">                     
+    <input id="birthday" name="birthday" type="date" placeholder="" class="form-control input-md" required="">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="color">สี</label>  
+  <div class="col-md-4">
+  <input id="color" name="color" type="color" placeholder="สี" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="address">ที่อยู่</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="address" name="address"></textarea>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="c">อาชีพ</label>
+  <div class="col-md-4">
+    <select id="c" name="c" class="form-control">
+      <option value="1">Option one</option>
+      <option value="2">Option two</option>
+    </select>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="food[]">อาหารที่ชอบ</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="food[]-0">
+      <input type="checkbox" name="food[]" id="food[]-0" value="1">
+      1
+    </label>
+    <label class="checkbox-inline" for="food[]-1">
+      <input type="checkbox" name="food[]" id="food[]-1" value="2">
+      2
+    </label>
+    <label class="checkbox-inline" for="food[]-2">
+      <input type="checkbox" name="food[]" id="food[]-2" value="3">
+      3
+    </label>
+    <label class="checkbox-inline" for="food[]-3">
+      <input type="checkbox" name="food[]" id="food[]-3" value="4">
+      4
+    </label>
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sudmit">ลงทะเบียน</label>
+  <div class="col-md-8">
+    <button id="sudmit" name="sudmit" class="btn btn-success">ลงทะเบียน</button>
+    <button id="reset" name="reset" class="btn btn-danger">reset</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>สมัครสมาชิกชมรมคนรักสุนัข</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="mb-4">แบบฟอร์มสมัครสมาชิกชมรมคนรักสุนัข</h1>
+      <form>
+        <!-- ชื่อ -->
+        <div class="mb-3">
+          <label for="fullname" class="form-label">ชื่อ-นามสกุล</label>
+          <input type="text" class="form-control" id="fullname" name="fullname" required>
+        </div>
+
+        <!-- อีเมล -->
+        <div class="mb-3">
+          <label for="email" class="form-label">อีเมล</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <!-- รหัสผ่าน -->
+        <div class="mb-3">
+          <label for="password" class="form-label">รหัสผ่าน</label>
+          <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+
+        <!-- เบอร์โทร -->
+        <div class="mb-3">
+          <label for="tel" class="form-label">เบอร์โทรศัพท์</label>
+          <input type="tel" class="form-control" id="tel" name="tel">
+        </div>
+
+        <!-- อายุ -->
+        <div class="mb-3">
+          <label for="age" class="form-label">อายุ</label>
+          <input type="number" class="form-control" id="age" name="age" min="1" max="120">
+        </div>
+
+        <!-- วันเกิด -->
+        <div class="mb-3">
+          <label for="birthdate" class="form-label">วันเกิด</label>
+          <input type="date" class="form-control" id="birthdate" name="birthdate">
+        </div>
+
+        <!-- เวลาโปรดในการพาหมาไปเดินเล่น -->
+        <div class="mb-3">
+          <label for="favtime" class="form-label">เวลาที่คุณชอบพาหมาไปเดินเล่น</label>
+          <input type="time" class="form-control" id="favtime" name="favtime">
+        </div>
+
+        <!-- เว็บไซต์ส่วนตัว -->
+        <div class="mb-3">
+          <label for="website" class="form-label">เว็บไซต์ส่วนตัว</label>
+          <input type="url" class="form-control" id="website" name="website">
+        </div>
+
+        <!-- สีที่ชอบ -->
+        <div class="mb-3">
+          <label for="favcolor" class="form-label">สีที่คุณชอบ</label>
+          <input type="color" class="form-control form-control-color" id="favcolor" name="favcolor" value="#ff0000">
+        </div>
+
+        <!-- ช่วงคะแนนความรักสุนัข -->
+        <div class="mb-3">
+          <label for="doglove" class="form-label">คุณรักสุนัขมากแค่ไหน? (0-100)</label>
+          <input type="range" class="form-range" id="doglove" name="doglove" min="0" max="100">
+        </div>
+
+        <!-- แนบรูปหมาของคุณ -->
+        <div class="mb-3">
+          <label for="dogphoto" class="form-label">แนบรูปสุนัขของคุณ</label>
+          <input type="file" class="form-control" id="dogphoto" name="dogphoto" accept="image/*">
+        </div>
+
+        <!-- ยืนยันการเป็นสมาชิก -->
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" value="" id="agree" required>
+          <label class="form-check-label" for="agree">
+            ฉันยืนยันว่าข้อมูลเป็นจริงและต้องการเข้าร่วมชมรมคนรักสุนัข
+          </label>
+        </div>
+
+        <!-- ปุ่มส่ง -->
+        <button type="submit" class="btn btn-primary">ส่งใบสมัคร</button>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+<body>
+</body>
+</html>
